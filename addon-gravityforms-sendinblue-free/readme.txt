@@ -1,17 +1,20 @@
 === Add-on Brevo for Gravity Forms ===
 Author: WP connect
 Author URI: https://wpconnect.co/
-Contributors: wpconnectco, pskli, staurand
-Tags: wpconnect, sendinblue, brevo, gravity forms, api, forms
+Contributors: wpconnectco, parmentelot, staurand
+Tags: forms, sendinblue, brevo, gravity forms, marketing
 Requires at least: 5.5
-Tested up to: 6.5
-Tested with Gravity Forms up to: 2.7.14
+Tested up to: 6.7
+Tested with Gravity Forms up to: 2.9.0
 Requires PHP: 7.0
-Stable tag: 2.3.0
+Stable tag: 2.4.0
 License: GPLv2 or later
 
-Connect the awesome WordPress Gravity Forms plugin to the relationship marketing platform Brevo (ex Sendinblue). With this game-changing plugin, you can link any Gravity Forms field with Brevo attributes. When validating the form, you generate a contact in the selected list(s) with all the correct attributes according to the information entered.
+Connect Gravity Forms to Brevo (Sendinblue). Sync form fields with Brevo attributes and automatically generate contacts in specified lists.
 
+== Description ==
+
+Connect the awesome WordPress Gravity Forms plugin to the relationship marketing platform Brevo (ex Sendinblue). With this game-changing plugin, you can link any Gravity Forms field with Brevo attributes. When validating the form, you generate a contact in the selected list(s) with all the correct attributes according to the information entered.
 
 == Features == 
 
@@ -27,7 +30,8 @@ Connect the awesome WordPress Gravity Forms plugin to the relationship marketing
 * Activate the double opt-in option
 * Choose the fitting template for the confirmation email
 
-Double op-tin only available with [Pro version](https://wpconnect.co/gravity-forms-sendinblue-add-on/?utm_campaign=free-version&utm_source=wp-org&utm_content=link2).
+Double opt-in only available with [Pro version](https://wpconnect.co/gravity-forms-sendinblue-add-on/?utm_campaign=free-version&utm_source=wp-org&utm_content=link2).
+Add a personalized note only with [Pro version](https://wpconnect.co/gravity-forms-sendinblue-add-on/?utm_campaign=free-version&utm_source=wp-org&utm_content=link5).
 
 = Add conditions, actions & filters =
 * Select which contacts will be added to your lists by creating simple – or advanced – conditions
@@ -35,7 +39,7 @@ Double op-tin only available with [Pro version](https://wpconnect.co/gravity-for
 
 == Free version ==
 This is the free version of our [Gravity Forms to Brevo plugin](https://wpconnect.co/gravity-forms-sendinblue-add-on/?utm_campaign=free-version&utm_source=wp-org&utm_content=link3). 
-**Gravity Forms to Brevo Free** allows you to create up to one feed for each form, map an Email field with a Brevo email attribute and one Consent field with a boolean attribute. You can also send new contacts to a single Brevo list. Free version does not include unlimited feeds creation, multiple fields mapping, several lists selection and double opt-in option.
+**Gravity Forms to Brevo Free** allows you to create up to one feed for each form, map an Email field with a Brevo email attribute and one Consent field with a boolean attribute. You can also send new contacts to a single Brevo list. The free version does not include unlimited feed creation, multiple field mapping, selection of multiple lists, or the double opt-in option.
 
 If you need more, check out [Pro version](https://wpconnect.co/gravity-forms-sendinblue-add-on/?utm_campaign=free-version&utm_source=wp-org&utm_content=link4) to unlock all features.
 
@@ -83,7 +87,7 @@ Brevo is a powerful all-in-one marketing platform. Combining many powerful featu
 Gravity Forms to Brevo plugin uses Brevo’s API to send data. Creating an account on Brevo is free and takes less than 2 minutes. Once logged in your contact, you can get the API key [from this page](https://account.sendinblue.com/advanced/api).
 
 = Do I have to pay to use the plugin and send emails? =
-Our plugin is free for basic features. Pro version costs $29 including updates and support for one year. Brevo offers a free plan with 9000 emails/month.
+Our plugin is free for basic features. Pro version costs $30 including updates and support for one year. Brevo offers a free plan with 300 emails/day, 9000 emails/month.
 
 = How do I synchronize my lists? =
 You don't have to do anything, the synchronization is automatic. Make sure you have created your lists and Brevo attributes before linking them to your form fields. If you don\'t see them, wait for one minute. For performance reasons, your Brevo list(s) and attribute(s) are cached for one minute.
@@ -103,28 +107,32 @@ If you need some assistance, open a ticket on the [Support](https://wordpress.or
 
 == Changelog ==
 
+= 2.4.0 =
+* Feature: Display error message when the Brevo API is inaccessible
+* Compatibility with WordPress 6.7
+
 = 2.3.0 =
-* Fix: error PHP undefined property
+* Fix: Error PHP undefined property
 * Improvement: Remove license field
 
 = 2.2.0 =
-* WordPress 6.5 compatibility
+* Compatibility with WordPress 6.5
 
 = 2.1.0 =
 * Feature: "emailBlacklisted" parameter when creating a contact
-* Fix: error api not showing in metaboxe of entries Gravity Forms
-* WordPress 6.4 compatibility
+* Fix: Error api not showing in metaboxe of entries Gravity Forms
+* Compatibility with WordPress 6.4
 
 = 2.0.0 = 
 * Improvement: Brevo (ex Sendinblue) name to Brevo
-* WordPress 6.3 compatibility
+* Compatibility with WordPress 6.3
 
 = 1.1.0 = 
 * Feature: Switch between the free version and the pro version
 * Improvement: Sendinblue name to Brevo
 
 = 1.0.3 =
-* WordPress 6.2 compatibility
+* Compatibility with WordPress 6.2
 
 = 1.0.2 =
 * Feature: Upgrade to Pro link
@@ -133,13 +141,15 @@ If you need some assistance, open a ticket on the [Support](https://wordpress.or
 * Fix: Test to verify if Pro version is activated
 * Fix: JavaScripts errors on other Gravity Forms add-ons
 
-= 1.0 =
+= 1.0.0 =
 Initial release
 
 
 == Support ==
+
 If you need some assistance, open a ticket on the [Support](https://wordpress.org/support/plugin/addon-gravityforms-sendinblue-free/).
 
 == Troubleshooting ==
+
 If you generate a list while creating an unsaved feed, an error may pop up during the process. Save your feed before reloading the page and your list will appear. To avoid the inconvenience, create your list before your feed.
 Make sure all your Brevo attributes are generated before liking them with Gravity Forms form fields. If you can’t see them, wait a minute: your lists and attributes are cached for optimal performance.

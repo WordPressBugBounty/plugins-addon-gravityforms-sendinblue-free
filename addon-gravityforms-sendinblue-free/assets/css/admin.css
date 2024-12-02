@@ -117,7 +117,9 @@ fieldset#gform-settings-section-wpco-sib-conditional-logic #gform_setting_feed-c
 }
 
 /* disabled like style */
-#gform_setting_use-double-optin .gform-settings-label {
+#gform_setting_use-double-optin .gform-settings-label,
+#gform_setting_enable-note-mapping .gform-settings-label,
+#gform_setting_partial-entries-enabled .gform-settings-label{
 	opacity: 0.6;
 }
 /* Disable map field row button */
