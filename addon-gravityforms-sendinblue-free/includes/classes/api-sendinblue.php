@@ -72,7 +72,7 @@ class API_Sendinblue {
 			)
 		);
 
-		$url             = sprintf( '%1$s%2$s', 'https://api.sendinblue.com/v3/', $route );
+		$url             = sprintf( '%1$s%2$s', 'https://api.brevo.com/v3/', $route );
 		$this->response  = wp_remote_request( $url, $args );
 		$pretty_response = json_decode( wp_remote_retrieve_body( $this->response ) );
 
@@ -80,7 +80,7 @@ class API_Sendinblue {
 		
 		if ($response_code >= 400) {
 	
-			$message = __('The Sendinblue API returned an error', 'addon-gravityforms-sendinblue-free');
+			$message = __('The Brevo API returned an error', 'addon-gravityforms-sendinblue-free');
 			$message_details = '';
 			
 			if ($pretty_response && in_array($pretty_response->code, array('missing_parameter', 'invalid_parameter'), true)) {
@@ -235,7 +235,7 @@ class API_Sendinblue {
 
 			$lists = array_merge( $lists, isset( $response->lists ) ? (array) $response->lists : array() );
 
-			sleep( 0.25 );
+			usleep(25000);
 
 			$total_fetched = count( $lists );
 		} while (

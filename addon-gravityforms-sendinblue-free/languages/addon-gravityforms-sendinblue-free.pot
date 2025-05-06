@@ -1,15 +1,15 @@
-# Copyright (C) 2024 WP connect
+# Copyright (C) 2025 WP connect
 # This file is distributed under the same license as the Add-on Brevo for Gravity Forms plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Add-on Brevo for Gravity Forms 2.4.0\n"
+"Project-Id-Version: Add-on Brevo for Gravity Forms 2.5.0\n"
 "Report-Msgid-Bugs-To: https://support.wpconnect.co/\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-29T10:35:07+00:00\n"
+"POT-Creation-Date: 2025-04-29T08:13:28+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: addon-gravityforms-sendinblue-free\n"
@@ -35,7 +35,7 @@ msgid "https://wpconnect.co/"
 msgstr ""
 
 #: addon-gravityforms-sendinblue-free.php:80
-msgid "The \"Gravity Forms Brevo Add-on\" plugin is inactive because the minimal requirements are not met."
+msgid "The \"Gravity Forms to Brevo\" Add-On is inactive because the minimal requirements are not met."
 msgstr ""
 
 #: addon-gravityforms-sendinblue-free.php:153
@@ -43,7 +43,7 @@ msgid "Upgrade to PRO"
 msgstr ""
 
 #: includes/classes/api-sendinblue.php:83
-msgid "The Sendinblue API returned an error"
+msgid "The Brevo API returned an error"
 msgstr ""
 
 #: includes/classes/gf-addon.php:134
@@ -122,7 +122,7 @@ msgid "Fields mapping"
 msgstr ""
 
 #: includes/classes/gf-addon.php:390
-msgid "Add and select the Sendinblue attributes for which to send data, then choose the form fields that match."
+msgid "Add and select the Brevo attributes for which to send data, then choose the form fields that match."
 msgstr ""
 
 #: includes/classes/gf-addon.php:394

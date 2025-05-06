@@ -7,7 +7,7 @@
  * Author URI: https://wpconnect.co/
  * Text Domain: addon-gravityforms-sendinblue-free
  * Domain Path: /languages/
- * Version: 2.4.0
+ * Version: 2.5.0
  */
 
 namespace DK_GF_SIB_FREE;
@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Define plugin constants
  */
-define( 'DKGFSIB_FREE_VERSION', '2.4.0' );
+define( 'DKGFSIB_FREE_VERSION', '2.5.0' );
 define( 'DKGFSIB_FREE_URL', plugin_dir_url( __FILE__ ) );
 define( 'DKGFSIB_FREE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'DKGFSIB_FREE_PLUGIN_DIRNAME', basename( rtrim( dirname( __FILE__ ), '/' ) ) );
@@ -77,7 +77,7 @@ function meets_requirements() {
 function notice_for_missing_requirements() {
 	printf(
 		'<div class="notice notice-error"><p>%1$s</p></div>',
-		esc_html__( 'The "Gravity Forms Brevo Add-on" plugin is inactive because the minimal requirements are not met.', 'addon-gravityforms-sendinblue-free' )
+		esc_html__( 'The "Gravity Forms to Brevo" Add-On is inactive because the minimal requirements are not met.', 'addon-gravityforms-sendinblue-free' )
 	);
 }
 
@@ -141,7 +141,7 @@ add_action( 'gform_loaded', __NAMESPACE__ . '\\register_addon', 5 );
 function load_translations() {
 	load_plugin_textdomain( 'addon-gravityforms-sendinblue-free', false, DKGFSIB_FREE_PLUGIN_DIRNAME . '/languages/' );
 }
-add_action( 'plugins_loaded', __NAMESPACE__ . '\\load_translations' );
+add_action( 'init', __NAMESPACE__ . '\\load_translations' );
 
 /**
  * Settings Link.

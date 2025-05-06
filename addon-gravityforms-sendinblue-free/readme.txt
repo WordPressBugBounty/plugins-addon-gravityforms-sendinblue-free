@@ -1,13 +1,13 @@
 === Add-on Brevo for Gravity Forms ===
 Author: WP connect
 Author URI: https://wpconnect.co/
-Contributors: wpconnectco, parmentelot, staurand
+Contributors: wpconnectco, bryanparmentelot, pskli, staurand
 Tags: forms, sendinblue, brevo, gravity forms, marketing
 Requires at least: 5.5
-Tested up to: 6.7
-Tested with Gravity Forms up to: 2.9.0
+Tested up to: 6.8
+Tested with Gravity Forms up to: 2.9.7.2
 Requires PHP: 7.0
-Stable tag: 2.4.0
+Stable tag: 2.5.0
 License: GPLv2 or later
 
 Connect Gravity Forms to Brevo (Sendinblue). Sync form fields with Brevo attributes and automatically generate contacts in specified lists.
@@ -49,32 +49,21 @@ If you need more, check out [Pro version](https://wpconnect.co/gravity-forms-sen
 == Installation ==
 
 1. Upload plugin files to your plugins folder
-
 2. Activate the plugin on your WordPress Back Office
-
 3. Go to the Gravity Forms settings page (under Forms > Settings > Brevo)
-
 4. Enter the information requested by the plugin: Brevo API key
-
 5. Click Save Settings
-
 6. Create your form then go to Settings > Brevo
-
 7. Follow on-screen instructions for integrating with Brevo
 
 
 == How does it work? How to use it? ==
 
 1. Create a form with an email field (don’t forget the consent field)
-
 2. Go to the Brevo tab of your form’s settings
-
 3. Map your Brevo attributes with Gravity Forms form fields
-
 4. Choose a Brevo list where the contacts should be added
-
 5. Add Conditional logic if needed
-
 6. Click on “Save settings”
 
 
@@ -99,49 +88,81 @@ If you need some assistance, open a ticket on the [Support](https://wordpress.or
 == Screenshots ==
 
 1. Plugin Settings page
-
 2. Enable switch & fields mapping
-
 3. Lists & conditional logic
 
 
 == Changelog ==
 
+= 2.5.0 =
+*Release Date: 06th May 2025*
+
+* Compatibility with WordPress 6.8
+* Fix: Corrected text strings in the source code
+* Fix: Load load_plugin_textdomain call too early
+* Improvement: Updated phrasing in the "Requirements" section
+
 = 2.4.0 =
+*Release Date: 03rd Dec 2024*
+
 * Feature: Display error message when the Brevo API is inaccessible
 * Compatibility with WordPress 6.7
 
 = 2.3.0 =
+*Release Date: 21st May 2024*
+
 * Fix: Error PHP undefined property
 * Improvement: Remove license field
 
 = 2.2.0 =
+*Release Date: 16th Aprl 2024*
+
 * Compatibility with WordPress 6.5
 
 = 2.1.0 =
+*Release Date: 14th Nov 2023*
+
 * Feature: "emailBlacklisted" parameter when creating a contact
 * Fix: Error api not showing in metaboxe of entries Gravity Forms
 * Compatibility with WordPress 6.4
 
 = 2.0.0 = 
+*Release Date: 24th Oct 2023*
+
 * Improvement: Brevo (ex Sendinblue) name to Brevo
 * Compatibility with WordPress 6.3
 
+= 1.2.0=
+*Release Date: 31st Aug 2023*
+
+* Fixed: Bug with users roles plugin
+* WordPress 6.3.1 compatibility
+
 = 1.1.0 = 
+*Release Date: 27th June 2023*
+
 * Feature: Switch between the free version and the pro version
 * Improvement: Sendinblue name to Brevo
 
 = 1.0.3 =
+*Release Date: 25th April 2023*
+
 * Compatibility with WordPress 6.2
 
 = 1.0.2 =
+*Release Date: 14th Feb 2023*
+
 * Feature: Upgrade to Pro link
 
 = 1.0.1 =
+*Release Date: 28th Nov 2022*
+
 * Fix: Test to verify if Pro version is activated
 * Fix: JavaScripts errors on other Gravity Forms add-ons
 
 = 1.0.0 =
+*Release Date: 29th Aug 2022*
+
 Initial release
 
 

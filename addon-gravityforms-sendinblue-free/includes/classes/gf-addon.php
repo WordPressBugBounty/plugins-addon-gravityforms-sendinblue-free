@@ -166,7 +166,7 @@ class GF_Addon extends GFFeedAddOn
 			'name'          => 'sib-api-key',
 			'label'             => esc_html__('Brevo API Key', 'addon-gravityforms-sendinblue-free'),
 			/* translators: %1$s: Sendinblue account API URL */
-			'tooltip'           => sprintf(esc_attr__('Visit the <a href="%1$s" target="_blank">Settings > SMTP & API</a> page in your Brevo account to generate an API key.', 'addon-gravityforms-sendinblue-free'), 'https://account.sendinblue.com/advanced/api'),
+			'tooltip'           => sprintf(esc_attr__('Visit the <a href="%1$s" target="_blank">Settings > SMTP & API</a> page in your Brevo account to generate an API key.', 'addon-gravityforms-sendinblue-free'), 'https://account.brevo.com/advanced/api'),
 			'type'          => 'text',
 			'placeholder'   => 'xkeysib-',
 			'class'         => 'small',
@@ -387,7 +387,7 @@ class GF_Addon extends GFFeedAddOn
 				array(
 					'name'              => 'mapped-fields',
 					'label'             => esc_html__('Fields mapping', 'addon-gravityforms-sendinblue-free'),
-					'tooltip'           => esc_html__('Add and select the Sendinblue attributes for which to send data, then choose the form fields that match.', 'addon-gravityforms-sendinblue-free'),
+					'tooltip'           => esc_html__('Add and select the Brevo attributes for which to send data, then choose the form fields that match.', 'addon-gravityforms-sendinblue-free'),
 					'type'              => 'dynamic_field_map',
 					'required'          => true,
 					'enable_custom_key' => false,
