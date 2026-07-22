@@ -1,6 +1,13 @@
 == Changelog ==
 === Add-on Brevo for Gravity Forms ===
 
+= 2.6.1 =
+*Release Date: 21st July 2026*
+
+* Compatibility with WordPress 7.0
+* Improvement: Added support and documentation links to the plugin settings page
+* Improvement: Raised minimum PHP requirement to 7.4 and tested with Gravity Forms up to 2.10
+
 = 2.6.0 =
 *Release Date: 09th December 2025*
 

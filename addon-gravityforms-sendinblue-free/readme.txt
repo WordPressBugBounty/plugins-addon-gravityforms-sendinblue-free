@@ -3,11 +3,11 @@ Author: WP connect
 Author URI: https://wpconnect.co/
 Contributors: wpconnectco, bryanparmentelot, pskli, staurand
 Tags: forms, sendinblue, brevo, gravity forms, marketing
-Requires at least: 5.5
-Tested up to: 6.9
-Tested with Gravity Forms up to: 2.9.23
-Requires PHP: 7.0
-Stable tag: 2.6.0
+Requires at least: 6.0
+Tested up to: 7.0
+Tested with Gravity Forms up to: 2.10
+Requires PHP: 7.4
+Stable tag: 2.6.1
 License: GPLv2 or later
 
 Connect Gravity Forms to Brevo (Sendinblue). Sync form fields with Brevo attributes and automatically generate contacts in specified lists.
@@ -95,6 +95,13 @@ If you need some assistance, open a ticket on the [Support](https://wordpress.or
 
 [Full changelog](https://wpconnect.co/changelog/changelog-add-on-brevo-for-gravity-forms-free-version/)
 
+= 2.6.1 =
+*Release Date: 21st July 2026*
+
+* Compatibility with WordPress 7.0
+* Improvement: Added support and documentation links to the plugin settings page
+* Improvement: Raised minimum PHP requirement to 7.4 and tested with Gravity Forms up to 2.10
+
 == Support ==
 
 If you need some assistance, open a ticket on the [Support](https://wordpress.org/support/plugin/addon-gravityforms-sendinblue-free/).
@@ -104,4 +111,4 @@ If you need some assistance, open a ticket on the [Support](https://wordpress.or
 If you generate a list while creating an unsaved feed, an error may pop up during the process. Save your feed before reloading the page and your list will appear. To avoid the inconvenience, create your list before your feed.
 Make sure all your Brevo attributes are generated before liking them with Gravity Forms form fields. If you can’t see them, wait a minute: your lists and attributes are cached for optimal performance.
 
-Ticket via the [WordPress support forum](https://wordpress.org/support/plugin/air-wp-sync/)
+Ticket via the [WordPress support forum](https://wordpress.org/support/plugin/addon-gravityforms-sendinblue-free/)

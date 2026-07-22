@@ -145,6 +145,23 @@ class GF_Addon extends GFFeedAddOn
 					),
 				),
 			),
+			array(
+				'title'  => esc_html__('Help', 'addon-gravityforms-sendinblue-free'),
+				'fields' => array(
+					array(
+						'name'  => 'help-links',
+						'label' => esc_html__('Resources', 'addon-gravityforms-sendinblue-free'),
+						'type'  => 'html',
+						'html'  => sprintf(
+							'<a href="%1$s" target="_blank" rel="noopener noreferrer">%2$s</a> &nbsp;|&nbsp; <a href="%3$s" target="_blank" rel="noopener noreferrer">%4$s</a>',
+							esc_url( 'https://wpconnect.co/documentation/gf-to-brevo/user-guide/' ),
+							esc_html__( 'Documentation', 'addon-gravityforms-sendinblue-free' ),
+							esc_url( 'https://wordpress.org/support/plugin/addon-gravityforms-sendinblue-free/' ),
+							esc_html__( 'Support', 'addon-gravityforms-sendinblue-free' )
+						),
+					),
+				),
+			),
 		);
 	}
 
