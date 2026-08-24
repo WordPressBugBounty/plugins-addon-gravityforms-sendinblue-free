@@ -6,7 +6,9 @@
  * Author: WP connect
  * Author URI: https://wpconnect.co/
  * Text Domain: addon-gravityforms-sendinblue-free
- * Version: 2.6.1
+ * Version: 2.6.2
+ * License: GPL-2.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Requires at least: 6.0
  * Requires PHP: 7.4
  */
@@ -20,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Define plugin constants
  */
-define( 'DKGFSIB_FREE_VERSION', '2.6.1' );
+define( 'DKGFSIB_FREE_VERSION', '2.6.2' );
 define( 'DKGFSIB_FREE_URL', plugin_dir_url( __FILE__ ) );
 define( 'DKGFSIB_FREE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'DKGFSIB_FREE_PLUGIN_DIRNAME', basename( rtrim( dirname( __FILE__ ), '/' ) ) );
